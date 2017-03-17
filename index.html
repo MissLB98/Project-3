@@ -26,32 +26,32 @@
 			<ul>
 				<li>
 				<label for="name">Full Name: <abbr title="required">*</abbr></label>
-				<input type="text" id="name" name="user-name" placeholder="Required" Required>
+				<input type="text" id="name" name="user-name" placeholder="Required" Required/>
 				</li>
 				
 				<li>
 				<label for="mail">Email Address: <abbr title="required">*</abbr></label>
-				<input type="email" id="mail" name="user_mail" placeholder="Required" Required>
+				<input type="email" id="mail" name="user_mail" placeholder="Required" Required/>
 				</li>
 				
 				<li>
 				<label for="phone-number">Phone Number:</label>
-				<input type="tel" id="phone-number" name="user_phone">
+				<input type="tel" id="phone-number" placeholder="ex: 000-000-0000" name="user_phone"/>
 				</li>
 				
 				<li>
 				<label for="street-address">Street Address:</label>
-				<input type="text" id="street-address" name="user_address">
+				<input type="text" id="street-address" placeholder="12 Example Street, Thoughtville" name="user_address"/>
 				</li>
 				
 				<li>
 				<label for="city">City:</label>
-				<input type="text" id="city" placeholder="ex: Cape Town" name="user_city">
+				<input type="text" id="city" placeholder="ex: Cape Town" name="user_city"/>
 				</li>
 				
 				<li>
-				<label for="state">State:</label>
-				<select id="state" name="user_state">
+				<label for="states">State:</label>
+				<select id="states" name="user_states">
 						<option value="choose_state">Choose State</option>
 						<option value="no-state">No State</option>
 				</select>
@@ -59,7 +59,7 @@
 				
 				<li>
 				<label for="zip-code">Zip Code:</label>
-				<input type="text" id="zip-code" pattern="[0-9]{4}" maxlength="10" title="Four digit zip code" name="user_Zip-Code"/>
+				<input type="text" id="zip-code" pattern="[0-9]{4}" maxlength="10" placeholder="ex: 7441" name="user_Zip-Code"/>
 				</li>
 			</ul>
 			</fieldset>
@@ -71,17 +71,17 @@
 			<div>
 			<p>Select the newsletters you would like to recieve:</p>
 			
-			<input type="checkbox" id="html-news" name="user_newsletter"><label for="html-news">HTML News</label><br/>
+			<input type="checkbox" id="html-news" name="user_newsletter"/><label for="html-news">HTML News</label><br/>
 			
-			<input type="checkbox" id="css-news" name="user_newsletter"><label for="css-news">CSS News</label><br/>
+			<input type="checkbox" id="css-news" name="user_newsletter"/><label for="css-news">CSS News</label><br/>
 			
-			<input type="checkbox" id="javascript-news" name="user_newsletter"><label for="javascript-news">Javascript News</label>
+			<input type="checkbox" id="javascript-news" name="user_newsletter"/><label for="javascript-news">Javascript News</label>
 			
 			<p>Newsletter format:</p>
 			
-			<input type="radio" id="html-format" name="user_html"><label for="html-format">HTML</label><br/>
+			<input type="radio" id="html-format" name="user_html"/><label for="html-format">HTML</label><br/>
 			
-			<input type="radio" id="plain-text-format" name="user_plain-text"><label for="plain-text-format">Plain text</label>
+			<input type="radio" id="plain-text-format" name="user_plain-text"/><label for="plain-text-format">Plain text</label>
 			
 			
 			<div class="text-box">
